@@ -61,19 +61,19 @@ def NN_visualize(Embed,words):
     # nx.draw(Orignal)
 
 
-    #labels2=NN(Embed.iloc[:,10:128], words, word, review1)
+    labels2=NN(Embed.iloc[:,10:128], words, word, review1)
     # pos = nx.spring_layout(First)
     # plt.subplot(222)
     # nx.draw_networkx_labels(First, pos=pos, labels=labels2)
     # nx.draw(First)
     #
-    #labels3=NN(Embed.iloc[:,20:128], words, word, review2)
+    labels3=NN(Embed.iloc[:,20:128], words, word, review2)
     # pos = nx.spring_layout(Second)
     # plt.subplot(223)
     # nx.draw_networkx_labels(Second, pos=pos, labels=labels2)
     # nx.draw(Second)
     #
-    #labels4=NN(Embed.iloc[:,30:128], words, word, review3)
+    labels4=NN(Embed.iloc[:,30:128], words, word, review3)
     # pos = nx.spring_layout(Third)
     # plt.subplot(224)
     # nx.draw_networkx_labels(Third, pos=pos, labels=labels4)
